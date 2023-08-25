@@ -1,0 +1,28 @@
+.product {
+    border-radius: 15px;
+    width: 113%;
+    height: 115%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.product img {
+    width: 75%;
+    height: 52%;
+}
+
+.product-name {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
